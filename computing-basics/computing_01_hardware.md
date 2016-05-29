@@ -8,8 +8,8 @@ This is the Central Nervous system for the computer. Everything plugs into the m
 ### Processer, also called the CPU. 
 The CPU is the brain of the computer. It's a computer chip (usually designed by Intel or AMD) that actually performs the computations you want out of your computational device. Your chip may have multiple threads, which allows it to perform more than one task at a time (we'll talk more about parallel processing later). In general, more threads are better (and more expensive) than fewer threads, but the gains are seldom linear (4 threads is almost never exactly 4 times faster than 1, for reasons.) It used to be that if you wanted a computer capable of doing statistical or machine learning computations quickly, you'd want to spend a lot of money on the processor. That calculus has changed slightly in the era of the GPU, most processors these days are plenty fast. Just make sure you get one that plays well with a GPU if you're going to be doing deep learning. 
 
-### Graphics Card (GPU) (used to be known as Video card)
-Graphics cards are chips that are specialized for performance on video games. The CPU is a great generalist, but it has to compromise performance in certain ways to accomodate the many different tasks it has to perform as the brain of the computer. A dedicated graphics card doesn't have to worry about as many things, so they are designed to perform many parallel matrix multiplications simulateously (something required for correctly shading objects in a video game). Fortuitously, that same capability is tremendously useful in machine learning (and especially deep learning, which requires a lot of matrix multiplication). GPU computing in the hard sciences had been going on for over a decade already, but in 2012, GPU computing hit the mainstream with Krizhevsky et al.'s 2012 ImageNet paper. (LINK). 
+### Graphics Card, also called the GPU or Video Card
+Graphics cards are chips that are specialized for performance on video games. The CPU is a great generalist, but it has to compromise performance in certain ways to accomodate the many different tasks it has to perform as the brain of the computer. A dedicated graphics card doesn't have to worry about as many things, so they are designed to perform many parallel matrix multiplications simulateously (something required for correctly shading objects in a video game). Fortuitously, that same capability is tremendously useful in machine learning (and especially deep learning, which requires a lot of matrix multiplication). GPU computing in the hard sciences had been going on for over a decade already, but in 2012, GPU computing hit the mainstream with Krizhevsky et al.'s 2012 ImageNet paper. (LINK).
 
 
 ### Hard drive (HDD or SSD)
@@ -30,13 +30,15 @@ It can store a lot more than you can store on your desk, but if you have to keep
 Each part of the computer requires electricity to run. The power supply takes power from where you plugged it in and
 
 
+### Monitor/Screen
+
+
+### Keyboard
+
+
+### Input device
+
 General computer-buying advice:
 It used to be more cost-effective to buy the pieces for a computer and put it together yourself. These days, it's not necessarily tons of advantage, since you're getting a price markup for each component. There's a decent chance you could put a desktop together that performs well and has exactly what you want. But because of the GPU revoluation in machine learning, a deep learning researcher has very similar build requirements as a serious PC gamer, so you can just buy a gaming laptop (buy one with an NVIDIA GPU because of CUDA).
 
 
-
-
-
-
-
-If you're looking for an optimal 
