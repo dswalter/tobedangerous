@@ -1,4 +1,4 @@
-You don't need to how to sodder your own circuits to conduct statistical anaylses, but a general idea of the parts of a computer and how they fit together will come up frequently, so you might as well get familiar. 
+You don't need to how to sodder your own circuits to conduct statistical analyses, but a general idea of the parts of a computer and how they fit together will come up frequently, so you might as well get familiar. 
 
 ## Parts:
 
